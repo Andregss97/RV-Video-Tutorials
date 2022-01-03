@@ -476,7 +476,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234384036}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 15d058a8feaca4f95a8384e5f8c1fc5b, type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 1728912096916304667, guid: d7b2b143accea4012b6ff858885f423c, type: 3}
+  m_TrackedImagePrefab: {fileID: 83124730629776308, guid: 74111050167a49c4b98cb2fabdd27046, type: 3}
 --- !u!114 &234384041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &788040260
 Canvas:
   m_ObjectHideFlags: 0
@@ -946,7 +946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &788135406
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1160,7 +1160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1032228065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6404,6 +6404,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 109126398843200851, guid: 9ab9ce51edb034ddbb22ddd003b53f29, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -9.999939
+      objectReference: {fileID: 0}
     - target: {fileID: 6713765991924245657, guid: 9ab9ce51edb034ddbb22ddd003b53f29, type: 3}
       propertyPath: trackingEngine
       value: 1
@@ -6944,7 +6948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2046689137
 MonoBehaviour:
   m_ObjectHideFlags: 0
