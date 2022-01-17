@@ -16,16 +16,6 @@ MonoBehaviour:
   m_GuidHigh: 11275329228326374074
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5025475094478170245
-      m_GuidHigh: 16152224469557073799
-    m_SerializedTextureGuid:
-      m_GuidLow: 8416443615619699426
-      m_GuidHigh: 3176537698258104266
-    m_Size: {x: 0.175, y: 0.175}
-    m_SpecifySize: 1
-    m_Name: AryzonV4_MarkerImage
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
       m_GuidLow: 5408885647195389609
       m_GuidHigh: 11512214393213788801
     m_SerializedTextureGuid:
@@ -36,22 +26,42 @@ MonoBehaviour:
     m_Name: AryzonV3_MarkerImage
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4680873592185567729
-      m_GuidHigh: 17239703872690332553
-    m_SerializedTextureGuid:
-      m_GuidLow: 17587236248051197945
-      m_GuidHigh: 13675583863329467288
-    m_Size: {x: 0.14, y: 0.14}
-    m_SpecifySize: 1
-    m_Name: AryzonSmall_MarkerImage
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5334758602625226183
-      m_GuidHigh: 17135708155174294929
+      m_GuidLow: 5689894645313708320
+      m_GuidHigh: 2324707741241647748
     m_SerializedTextureGuid:
       m_GuidLow: 1969377006539933289
       m_GuidHigh: 16386008169325370907
-    m_Size: {x: 0.3, y: 0.30068493}
-    m_SpecifySize: 1
-    m_Name: target_menu
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Menu Object
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4828414785998694022
+      m_GuidHigh: 18325428291233188287
+    m_SerializedTextureGuid:
+      m_GuidLow: 17596864836853776507
+      m_GuidHigh: 16725334448867475449
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: White Circle Object
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4687261419897378152
+      m_GuidHigh: 7950957988168030125
+    m_SerializedTextureGuid:
+      m_GuidLow: 667734067751292610
+      m_GuidHigh: 4072651090559108667
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Red Circle Obejct
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5376952211612824869
+      m_GuidHigh: 16749993975749447091
+    m_SerializedTextureGuid:
+      m_GuidLow: 17047327248357286435
+      m_GuidHigh: 14716099755204104698
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Arrow Object
     m_Texture: {fileID: 0}
