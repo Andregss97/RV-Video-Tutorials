@@ -11,6 +11,7 @@ namespace RVir.GrupoTres
     public class SubPrefabTargetImagePickerEditor : Editor
     {
         SerializedProperty library;
+        SerializedProperty clip;
 
         Color defaultColor;
         Color highlightedColor = new Color(1, 1, 0);
@@ -22,6 +23,7 @@ namespace RVir.GrupoTres
         private void OnEnable()
         {
             library = serializedObject.FindProperty("referenceImageLibrary");
+            clip = serializedObject.FindProperty("clip");
 
             emptyImage = new XRReferenceImage();
 
@@ -32,6 +34,7 @@ namespace RVir.GrupoTres
         public override void OnInspectorGUI()
         {
             // Handle the library variable the proper way
+            EditorGUILayout.PropertyField(clip);
             EditorGUILayout.PropertyField(library);
             serializedObject.ApplyModifiedProperties();
 

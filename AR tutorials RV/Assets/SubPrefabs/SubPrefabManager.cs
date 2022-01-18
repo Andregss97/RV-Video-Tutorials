@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation;
 
 namespace RVir.GrupoTres
@@ -19,12 +20,22 @@ namespace RVir.GrupoTres
 
         void Start()
         {
+            /*GameObject easy = GameObject.FindWithTag("easy");
+            GameObject medium = GameObject.FindWithTag("medium");
+            GameObject hard = GameObject.FindWithTag("hard");
+            
+            string name =  EventSystem.current.currentSelectedGameObject.name;
+
+            if(name.CompareTo("easy") == 0){ easy.SetActive(true); }
+            if(name.CompareTo("medium") == 0){ medium.SetActive(true); }
+            if(name.CompareTo("hard") == 0){ hard.SetActive(true); }*/
+
             if (trackedImage != null)
             {
                 foreach (SubPrefabTargetImagePicker picker in SubPrefabs)
                 {
                     Debug.Log(picker.image.name);
-                    if (picker.image == trackedImage?.referenceImage)
+                    if (picker.image == trackedImage?.referenceImage && (universalPlayer.staticPlayer.clip == picker.clip || picker.clip == null))
                         picker.TurnOn();
                     else
                         picker.TurnOff();
@@ -33,5 +44,3 @@ namespace RVir.GrupoTres
         }
     }
 }
-
-

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Video;
 using UnityEngine.XR.ARSubsystems;
 
 namespace RVir.GrupoTres
@@ -10,6 +11,7 @@ namespace RVir.GrupoTres
     /// </summary>
     public class SubPrefabTargetImagePicker : MonoBehaviour
     {
+        public VideoClip clip;
         public XRReferenceImageLibrary referenceImageLibrary;
         public XRReferenceImage image;
 

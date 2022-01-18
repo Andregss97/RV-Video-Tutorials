@@ -43,7 +43,7 @@ MonoBehaviour:
       m_GuidHigh: 16725334448867475449
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: White Circle Object
+    m_Name: wcE
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4687261419897378152
@@ -53,7 +53,7 @@ MonoBehaviour:
       m_GuidHigh: 4072651090559108667
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: Red Circle Obejct
+    m_Name: rcE
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5376952211612824869
@@ -63,5 +63,65 @@ MonoBehaviour:
       m_GuidHigh: 14716099755204104698
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: Arrow Object
+    m_Name: aE
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5390941204419334330
+      m_GuidHigh: 11960724139958418609
+    m_SerializedTextureGuid:
+      m_GuidLow: 13214929611059977853
+      m_GuidHigh: 3207502721311203032
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: wcM
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5482600859673611287
+      m_GuidHigh: 12004613655671371432
+    m_SerializedTextureGuid:
+      m_GuidLow: 12161115939032529500
+      m_GuidHigh: 5152905550845948139
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: rcM
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5158442597279080273
+      m_GuidHigh: 14685995507226814625
+    m_SerializedTextureGuid:
+      m_GuidLow: 1010084400216429639
+      m_GuidHigh: 7697448542935065529
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: aM
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5680835284919079186
+      m_GuidHigh: 3576288653402318729
+    m_SerializedTextureGuid:
+      m_GuidLow: 1050608360548558176
+      m_GuidHigh: 12153732420095669272
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: wcH
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5233839444004142527
+      m_GuidHigh: 5863343659685757082
+    m_SerializedTextureGuid:
+      m_GuidLow: 18416345690807038230
+      m_GuidHigh: 12590672353588392138
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: rcH
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4994438080079246767
+      m_GuidHigh: 5553324116595638937
+    m_SerializedTextureGuid:
+      m_GuidLow: 13912830371171635414
+      m_GuidHigh: 7713413617809718520
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: aH
     m_Texture: {fileID: 0}
