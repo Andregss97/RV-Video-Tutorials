@@ -20,16 +20,6 @@ namespace RVir.GrupoTres
 
         void Start()
         {
-            /*GameObject easy = GameObject.FindWithTag("easy");
-            GameObject medium = GameObject.FindWithTag("medium");
-            GameObject hard = GameObject.FindWithTag("hard");
-            
-            string name =  EventSystem.current.currentSelectedGameObject.name;
-
-            if(name.CompareTo("easy") == 0){ easy.SetActive(true); }
-            if(name.CompareTo("medium") == 0){ medium.SetActive(true); }
-            if(name.CompareTo("hard") == 0){ hard.SetActive(true); }*/
-
             if (trackedImage != null)
             {
                 foreach (SubPrefabTargetImagePicker picker in SubPrefabs)
@@ -40,6 +30,46 @@ namespace RVir.GrupoTres
                     else
                         picker.TurnOff();
                 }
+            }
+        }
+
+        public bool childrenVisible(){
+            Renderer[] childrenRenderers = GetComponentsInChildren<Renderer>();
+
+            bool children = false;
+            foreach(Renderer r in childrenRenderers)
+            {
+                children = r.isVisible || children;
+            }
+            return children;
+        }
+
+        public void showArrows(){
+            //Debug.Log("show Arrows");
+            ArrowManager.RequestShowArrows(this);
+        }
+
+        public void hideArrows(){
+            //Debug.Log("hide Arrows");
+            ArrowManager.RequestHideArrows(this);
+        }
+    
+        void Update(){
+            if(childrenVisible()){
+                hideArrows();
+            }
+            else{
+                showArrows();
+            }
+
+            foreach (var subPrefab in SubPrefabs)
+            {
+                // Is the playing clip the same as the clip configured on the SubPrefab
+                bool shouldBeOn = (subPrefab.clip == null || subPrefab.clip == universalPlayer.staticPlayer.clip);
+
+                // SubPrefab should be active when the correct clip is playing, and vice-versa
+                if (subPrefab.gameObject.activeSelf != shouldBeOn)
+                    subPrefab.gameObject.SetActive(shouldBeOn);
             }
         }
     }

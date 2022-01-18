@@ -26,6 +26,7 @@ public class universalPlayer : MonoBehaviour
     public static void Stop(){
         staticPlayer.Stop();
         staticPlayer.GetComponent<RawImage>().enabled = false;
+        staticPlayer.clip = null;
     }
 
     public static void Play(){

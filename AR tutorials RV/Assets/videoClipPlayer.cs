@@ -20,8 +20,8 @@ public class videoClipPlayer : MonoBehaviour
     }
 
     public void playClip(){
-        universalPlayer.staticPlayer.clip = clip;
-        universalPlayer.Play();
+            universalPlayer.staticPlayer.clip = clip;
+            universalPlayer.Play();
     }
 
     public void stopClip(){
@@ -30,6 +30,6 @@ public class videoClipPlayer : MonoBehaviour
 
     public void replayClip(){
         universalPlayer.Stop();
-        universalPlayer.Play();
+        playClip();
     }
 }
