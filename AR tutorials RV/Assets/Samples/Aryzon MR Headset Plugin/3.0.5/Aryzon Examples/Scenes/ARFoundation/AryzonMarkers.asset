@@ -16,16 +16,6 @@ MonoBehaviour:
   m_GuidHigh: 11275329228326374074
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5408885647195389609
-      m_GuidHigh: 11512214393213788801
-    m_SerializedTextureGuid:
-      m_GuidLow: 2599590304183646119
-      m_GuidHigh: 2770761289249466920
-    m_Size: {x: 0.192, y: 0.192}
-    m_SpecifySize: 1
-    m_Name: AryzonV3_MarkerImage
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
       m_GuidLow: 5689894645313708320
       m_GuidHigh: 2324707741241647748
     m_SerializedTextureGuid:
@@ -36,62 +26,32 @@ MonoBehaviour:
     m_Name: Menu Object
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4828414785998694022
-      m_GuidHigh: 18325428291233188287
+      m_GuidLow: 5558883325878293923
+      m_GuidHigh: 6742348860654961837
     m_SerializedTextureGuid:
-      m_GuidLow: 17596864836853776507
-      m_GuidHigh: 16725334448867475449
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: wcE
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4687261419897378152
-      m_GuidHigh: 7950957988168030125
-    m_SerializedTextureGuid:
-      m_GuidLow: 667734067751292610
-      m_GuidHigh: 4072651090559108667
+      m_GuidLow: 532678642855375170
+      m_GuidHigh: 16382377868006162873
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: rcE
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5376952211612824869
-      m_GuidHigh: 16749993975749447091
+      m_GuidLow: 5695568186923435788
+      m_GuidHigh: 14256325054342208697
     m_SerializedTextureGuid:
-      m_GuidLow: 17047327248357286435
-      m_GuidHigh: 14716099755204104698
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: aE
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5390941204419334330
-      m_GuidHigh: 11960724139958418609
-    m_SerializedTextureGuid:
-      m_GuidLow: 13214929611059977853
-      m_GuidHigh: 3207502721311203032
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: wcM
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5482600859673611287
-      m_GuidHigh: 12004613655671371432
-    m_SerializedTextureGuid:
-      m_GuidLow: 12161115939032529500
-      m_GuidHigh: 5152905550845948139
+      m_GuidLow: 13048225105777350377
+      m_GuidHigh: 14005332288427124762
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: rcM
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5158442597279080273
-      m_GuidHigh: 14685995507226814625
+      m_GuidLow: 5049862708583550937
+      m_GuidHigh: 8658265555497852584
     m_SerializedTextureGuid:
-      m_GuidLow: 1010084400216429639
-      m_GuidHigh: 7697448542935065529
+      m_GuidLow: 3009727278013666263
+      m_GuidHigh: 8469001764737751768
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: aM
+    m_Name: rcH
     m_Texture: {fileID: 0}

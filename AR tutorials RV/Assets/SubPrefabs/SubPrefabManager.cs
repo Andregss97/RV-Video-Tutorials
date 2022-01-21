@@ -25,8 +25,10 @@ namespace RVir.GrupoTres
                 foreach (SubPrefabTargetImagePicker picker in SubPrefabs)
                 {
                     Debug.Log(picker.image.name);
-                    if (picker.image == trackedImage?.referenceImage && (universalPlayer.staticPlayer.clip == picker.clip || picker.clip == null))
+                    if (picker.image == trackedImage?.referenceImage && (universalPlayer.staticPlayer.clip == picker.clip || picker.clip == null)){
                         picker.TurnOn();
+                        Debug.Log("ligado");
+                    }
                     else
                         picker.TurnOff();
                 }
