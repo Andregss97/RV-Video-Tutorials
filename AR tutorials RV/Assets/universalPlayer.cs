@@ -15,6 +15,7 @@ public class universalPlayer : MonoBehaviour
     void Start()
     {
         staticPlayer = player;
+        staticPlayer.GetComponent<RawImage>().enabled = false;
     }
 
     // Update is called once per frame
@@ -30,7 +31,7 @@ public class universalPlayer : MonoBehaviour
     }
 
     public static void Play(){
-        staticPlayer.Play();
         staticPlayer.GetComponent<RawImage>().enabled = true;
+        staticPlayer.Play();
     }
 }
