@@ -6221,7 +6221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce6556261f8f3447ba45fef77ebb24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 2
+  waitTime: 30
   timer: 0
   rotation: {fileID: 1725886927}
 --- !u!114 &1725886930
