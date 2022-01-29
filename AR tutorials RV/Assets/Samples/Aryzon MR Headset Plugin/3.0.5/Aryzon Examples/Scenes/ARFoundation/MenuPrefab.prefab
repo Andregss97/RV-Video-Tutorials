@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1528ab67977cc74cb8aae3b8f0801c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: c29a91e4dbc43814c9d8a8dffc6d9fd5, type: 3}
+  clip: {fileID: 32900000, guid: 4d4b339f8a6d86d429f13452d5f2c3c0, type: 3}
   referenceImageLibrary: {fileID: 11400000, guid: 15d058a8feaca4f95a8384e5f8c1fc5b, type: 2}
   image:
     m_SerializedGuid:
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1528ab67977cc74cb8aae3b8f0801c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 9632568c8ee208747a5d4c75fdef14f9, type: 3}
+  clip: {fileID: 32900000, guid: 88083c5e5e141ea4fadaf89869cb6545, type: 3}
   referenceImageLibrary: {fileID: 11400000, guid: 15d058a8feaca4f95a8384e5f8c1fc5b, type: 2}
   image:
     m_SerializedGuid:
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17645bee77befff47ba9e5e4f2153160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: d7c4f3591e8329a4fa7b797a7cf1a00b, type: 3}
+  clip: {fileID: 32900000, guid: 28d2d06995f250346bfcefc9a706e3f8, type: 3}
 --- !u!1 &1125761097189158362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,7 +1909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17645bee77befff47ba9e5e4f2153160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 9632568c8ee208747a5d4c75fdef14f9, type: 3}
+  clip: {fileID: 32900000, guid: 88083c5e5e141ea4fadaf89869cb6545, type: 3}
 --- !u!1 &1828731466504725835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,7 +2175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17645bee77befff47ba9e5e4f2153160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: c29a91e4dbc43814c9d8a8dffc6d9fd5, type: 3}
+  clip: {fileID: 32900000, guid: 4d4b339f8a6d86d429f13452d5f2c3c0, type: 3}
 --- !u!1 &1922070780069830353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,7 +2272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1528ab67977cc74cb8aae3b8f0801c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: d7c4f3591e8329a4fa7b797a7cf1a00b, type: 3}
+  clip: {fileID: 32900000, guid: 28d2d06995f250346bfcefc9a706e3f8, type: 3}
   referenceImageLibrary: {fileID: 11400000, guid: 15d058a8feaca4f95a8384e5f8c1fc5b, type: 2}
   image:
     m_SerializedGuid:
@@ -5141,7 +5141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17645bee77befff47ba9e5e4f2153160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: c29a91e4dbc43814c9d8a8dffc6d9fd5, type: 3}
+  clip: {fileID: 32900000, guid: 4d4b339f8a6d86d429f13452d5f2c3c0, type: 3}
 --- !u!1 &7719148089608625585
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,7 +5467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17645bee77befff47ba9e5e4f2153160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: d7c4f3591e8329a4fa7b797a7cf1a00b, type: 3}
+  clip: {fileID: 32900000, guid: 28d2d06995f250346bfcefc9a706e3f8, type: 3}
 --- !u!1 &8173594109348287412
 GameObject:
   m_ObjectHideFlags: 0

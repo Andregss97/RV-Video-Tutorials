@@ -24,19 +24,19 @@ public class SubtitlesManager : MonoBehaviour
     void Update()
     {
         if(staticPlayer.GetComponent<RawImage>().enabled){
-            if(staticPlayer.clip.name == "easy"){
+            if(staticPlayer.clip.name == "Step1"){
             mediumSubtitles.SetActive(false);
             hardSubtitles.SetActive(false);
             easySubtitles.SetActive(true);
             Debug.Log("Easy ligado");
             }
-            else if(staticPlayer.clip.name == "medium"){
+            else if(staticPlayer.clip.name == "Step2"){
                 easySubtitles.SetActive(false);
                 hardSubtitles.SetActive(false);
                 mediumSubtitles.SetActive(true);
                 Debug.Log("Medium ligado");
             }
-            else if(staticPlayer.clip.name == "Hard"){
+            else if(staticPlayer.clip.name == "Step3"){
                 easySubtitles.SetActive(false);
                 mediumSubtitles.SetActive(false);
                 hardSubtitles.SetActive(true);
