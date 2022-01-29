@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: AryzonMarkers
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5642159201967097778
+  m_GuidHigh: 11275329228326374074
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5689894645313708320
+      m_GuidHigh: 2324707741241647748
+    m_SerializedTextureGuid:
+      m_GuidLow: 1969377006539933289
+      m_GuidHigh: 16386008169325370907
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Menu Object
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5558883325878293923
+      m_GuidHigh: 6742348860654961837
+    m_SerializedTextureGuid:
+      m_GuidLow: 532678642855375170
+      m_GuidHigh: 16382377868006162873
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: rcE
+    m_Texture: {fileID: 0}
